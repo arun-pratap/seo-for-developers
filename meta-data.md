@@ -1,5 +1,7 @@
 ## BASIC SEO
 
+[Not Interested in reading alll this. click here to copy and use it.](#complete-source-code)
+
 **1. Title Tag**
 
 ```html
@@ -27,7 +29,7 @@
 **3. Canonical URL**
 
 ```html
-<link rel="canonical" href="https://yourwebsite.com/" /
+<link rel="canonical" href="https://yourwebsite.com/" />
 <!-- 👉 Prevents duplicate content issues -->
 ```
 
@@ -95,6 +97,39 @@
 <meta name="twitter:creator" content="@arunpsingh" />
 ```
 
+## Complete Source Code
 
+```html
+<title>Best Website Development Services in India | Website Dukaan</title>
+<meta name="description" content="Get high-performance, SEO-friendly websites for your business. Affordable pricing, modern design, and fast delivery. Contact Website Dukaan today." />
+<link rel="canonical" href="https://yourwebsite.com/" />
+
+// open graph
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Google" />
+<meta property="og:title" content="Website Development Services | Website Dukaan" />
+<meta property="og:description" content="Modern, fast, SEO-ready websites for businesses." />
+<meta property="og:url" content="https://yourwebsite.com" />
+<meta property="og:image" content="https://yourwebsite.com/cover.jpg" />
+<meta property='og:image:alt' content="image-alternative-text"></meta>
+
+<meta property="article:published_time" content="2026-03-25" />
+<meta property="article:author" content="Your Name" />
+
+<!-- 👉 Recommended: 1200 × 630 px -->
+<meta property='og:image:width' content='1200' />
+<meta property='og:image:height' content='630' />
+<!-- 👆 width and height property is good to have but not must -->
+
+// twitter card
+<meta name="twitter:card" content="summary_large_image" /> 
+<meta name="twitter:title" content="Website Dukaan" />
+<meta name="twitter:description" content="High-performance websites for your business." />
+<meta name="twitter:image" content="https://yourwebsite.com/cover.jpg" />
+
+<!-- only if you have twiter handle for website or author/writer -->
+<meta name="twitter:site" content="@quedemy" /> // 
+<meta name="twitter:creator" content="@arunpsingh" />
+```
 
 
