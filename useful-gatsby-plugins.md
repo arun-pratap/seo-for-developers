@@ -116,3 +116,11 @@ childImageSharp {
 ```
 
 ---
+
+
+```graphql
+ width: 1200
+  placeholder: BLURRED
+  formats: [AUTO, WEBP, AVIF]
+  quality: 80
+```
