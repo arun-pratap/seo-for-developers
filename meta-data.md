@@ -50,17 +50,6 @@
 <meta charset="UTF-8" />
 ```
 
-*For blog pages, ALSO add:*
-
-```html
-<meta property="article:published_time" content="2026-03-25" />
-<meta property="article:author" content="Your Name" />
-<!-------------------------------------------------
- for type === "article"
-👉 Helps platforms understand it’s real content
--------------------------------------------------->
-```
-
 ## 🚀 Social Sharing Metadata (VERY IMPORTANT)
 
 ### Open Graph (OG)
@@ -76,6 +65,13 @@
 <meta property="og:url" content="https://yourwebsite.com" />
 <meta property="og:site_name" content="Google" />
 <!-- site_name always brand name or soething relevant like quedemy blog quedemy ebooks etc. -->
+
+<meta property="article:published_time" content="2026-03-25" />
+<meta property="article:author" content="Your Name" />
+<!-------------------------------------------------
+ for type === "article"
+👉 Helps platforms understand it’s real content
+-------------------------------------------------->
 
 <!-- 👉 1200 × 630 px (Good to add but not must) -->
 <meta property='og:image:width' content='1680' />
